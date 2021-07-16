@@ -49,6 +49,7 @@ class ClaseConErroresTest {
 	@Test
 	void testMetodo2MotorExceptionSiProcesaTrue() throws IOException {
 		assertThrows(MotorException.class, () -> cut.metodo2(true));
+		
 	}
 	
 }
